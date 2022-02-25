@@ -1,0 +1,14 @@
+GET http://localhost:7000/v1/cronometro/
+Accept: application/json
+
+###
+POST http://localhost:7000/v1/cronometro/
+Content-Type: application/json
+
+{
+"fecha" : "2022-02-25 01:59:20",
+"tiempo" : "00:10:00.27",
+"accion" : "inicio"
+}
+
+###
